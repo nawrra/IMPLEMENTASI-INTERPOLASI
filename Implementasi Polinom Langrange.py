@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Data yang diberikan
 x_data = np.array([5, 10, 15, 20, 25, 30, 35, 40])
-y_data = np.array([15, 19, 14, 11, 6, 4, 6, 8])
+y_data = np.array([40, 30, 25, 40, 18, 20, 22, 15])
 
 # Fungsi untuk menghitung basis Lagrange
 def lagrange_basis(x, x_data, k):
